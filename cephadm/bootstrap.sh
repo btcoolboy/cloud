@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt install cephadm ceph-common -y
+sudo apt update && sudo apt install cephadm ceph-common -y
 sudo cephadm --docker --image 10.200.101.20:8084/ceph/ceph:v15 bootstrap \
 	--apply-spec ./cluster.yaml \
 	--ssh-user ubuntu \
