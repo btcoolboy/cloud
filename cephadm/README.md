@@ -1,5 +1,3 @@
-Minimal Ceph RBD Cluster
-
 Hosts:
 `ceph-01 10.200.101.171`
 `ceph-02 10.200.101.172`
