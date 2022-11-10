@@ -1,1 +1,3 @@
-# cloud
+- cephadm
+- kolla-ansible
+- terraform
