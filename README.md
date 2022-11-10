@@ -1,3 +1,2 @@
-- cephadm
-- kolla-ansible
-- terraform
+- ubuntu
+- docker
