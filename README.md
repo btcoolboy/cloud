@@ -1,5 +1,5 @@
-- ubuntu
-- docker
+`ubuntu`
+`docker`
 - cephadm
 - kolla-ansible
 - terraform
