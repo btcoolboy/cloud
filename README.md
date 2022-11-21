@@ -1,2 +1,3 @@
 - ubuntu
 - docker
+- cephadm
