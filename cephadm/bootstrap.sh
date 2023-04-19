@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt update && sudo apt install cephadm ceph-common -y
-sudo cephadm --docker --image 10.200.101.20:8084/ceph/ceph:v17 bootstrap \
+sudo cephadm --docker --image registry-quay.cloud.lab/ceph/ceph:v17 bootstrap \
 	--apply-spec ./cluster.yaml \
 	--ssh-user ubuntu \
 	--ssh-private-key /home/ubuntu/.ssh/id_rsa \
