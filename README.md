@@ -3,4 +3,3 @@
 `nexus3`
 - cephadm
 - kolla-ansible
-- terraform
